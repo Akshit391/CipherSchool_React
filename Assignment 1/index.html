@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>PopStore</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1 class="heading" style="color:white">POP <span id="sub_heading">STORE</span></h1>
+    
+    <div class="container-1">
+        <div class="flex-box">
+            <div><button class="btn aks"  style="background-color: red;" onclick="cakes()" id="cake">Cakes</button></div>
+            <div><button class="btn aks" style="background-color:rgb(126, 187, 5);" onclick="donuts()" id="donut">Donuts</button></div>
+            <div><button class="btn aks" style="background-color:rgb(153, 0, 120);" onclick="chocolates()" id="chocolate">Chocolates</button></div>
+            <div><button class="btn aks" style="background-color: rgb(10, 194, 194);" onclick="candys()" id="candy">Candy</button></div>
+           
+         </div>
+        
+    </div>
+    
+    <div class="container element">
+    <div class="search col-lg-12 col-md-12 col-sm-12 col-12">
+        <input type="text" id="search" class="form-control" placeholder="Enter The Item" onkeyup="search()">
+       
+    </div>
+   
+    <div class="row main">
+        <div class="items  col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="img-fluid" src="images/cakes.jpg" name="cake">
+            <h4 class="names">Strawberry Cakes</h4>
+        </div>
+        <div class="items  col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="img-fluid" src="images/cakes1.jpg" name="cake">
+            <h4 class="names">Chocolate Cake</h4>
+        </div>
+        <div class="items  col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="img-fluid" src="images/cakes3.jpg" name="cake">
+            <h4 class="names">Dark Chocolate Cake</h4>
+        </div>
+        <div class="items  col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="img-fluid" src="images/donut1.jpg" name="donut">
+            <h4 class="names">Donut</h4>
+        </div>
+        <div class="items  col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="img-fluid" src="images/donuts2.jpg" name="donut">
+            <h4 class="names">Crystle Donut</h4>
+        </div>
+        <div class="items  col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="img-fluid" src="images/donuts3.jpg" name="donut">
+            <h4 class="names">Chocolate Donut</h4>
+        </div>
+        <div class="items  col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="img-fluid" src="images/chocolate.jpg" name="chocolate">
+            <h4 class="names">Choco Balls</h4>
+        </div>
+        <div class="items  col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="img-fluid" src="images/chocolate1.jpg" name="chocolate">
+            <h4 class="names">Chocolate</h4>
+        </div>
+        <div class="items  col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="img-fluid" src="images/chocolate2.jpg" name="chocolate">
+            <h4 class="names">Ferrero Rocher</h4>
+        </div>
+        <div class="items  col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="img-fluid" src="images/candy.jpg" name="candy">
+            <h4 class="names">Candy Bar</h4>
+        </div>
+        <div class="items  col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="img-fluid" src="images/rock.jpg" name="candy">
+            <h4 class="names">Rock Candy</h4>
+        </div>
+        <div class="items  col-lg-4 col-md-6 col-sm-12 col-12">
+            <img class="img-fluid" src="images/sour.jpg" name="candy">
+            <h4 class="names">Sour Candy</h4>
+        </div>
+      
+    
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
